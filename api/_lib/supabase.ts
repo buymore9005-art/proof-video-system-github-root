@@ -10,9 +10,9 @@ function required(name: string): string {
 }
 
 export const serverEnv = {
-  supabaseUrl: required('VITE_SUPABASE_URL'),
-  secretKey: required('SUPABASE_SECRET_KEY'),
-  setupSecret: required('SETUP_SECRET'),
+  supabaseUrl: required('https://saeqilrxknmbfiyuxpos.supabase.co'),
+  secretKey: required('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhZXFpbHJ4a25tYmZpeXV4cG9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ3OTc5NDIsImV4cCI6MjEwMDM3Mzk0Mn0.tToB5oBmjRtYCZL0k7YJci5pOlOX7DUSplXW_vqTniQ'),
+  setupSecret: required('4d8f2c8f8d6b4d5aa7c1f0e9b6e4d2c1'),
 };
 
 export function createServiceClient() {
