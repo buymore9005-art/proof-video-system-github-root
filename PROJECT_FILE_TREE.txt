@@ -1,0 +1,108 @@
+proof-video-github-supabase-vercel/
+├── .env.example
+├── .gitattributes
+├── .github/
+│   ├── dependabot.yml
+│   └── workflows/
+│       └── ci.yml
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.json
+├── .vscode/
+│   ├── extensions.json
+│   ├── settings.json
+│   └── tasks.json
+├── DELETED_FILES.md
+├── LICENSE
+├── PROJECT_FILE_TREE.txt
+├── README.md
+├── SOURCE_MANIFEST.sha256
+├── VERIFICATION_REPORT.md
+├── api/
+│   ├── _lib/
+│   │   ├── audit.ts
+│   │   ├── auth.ts
+│   │   ├── http.ts
+│   │   └── supabase.ts
+│   ├── health.ts
+│   ├── setup.ts
+│   ├── users.ts
+│   └── videos/
+│       └── delete.ts
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── DEPLOYMENT.md
+│   ├── GITHUB.md
+│   ├── INSTALLATION.md
+│   ├── MIGRATION.md
+│   ├── SECURITY.md
+│   └── TESTING.md
+├── eslint.config.js
+├── index.html
+├── package.json
+├── public/
+│   ├── favicon.svg
+│   └── robots.txt
+├── scripts/
+│   ├── generate-secret.mjs
+│   └── verify-project.mjs
+├── src/
+│   ├── app.tsx
+│   ├── components/
+│   │   ├── app-shell.tsx
+│   │   ├── protected-route.tsx
+│   │   ├── recording-station.tsx
+│   │   ├── ui.tsx
+│   │   └── upload-drawer.tsx
+│   ├── hooks/
+│   │   └── use-settings.ts
+│   ├── lib/
+│   │   ├── api.ts
+│   │   ├── barcode.ts
+│   │   ├── date.ts
+│   │   ├── env.ts
+│   │   ├── filename.ts
+│   │   ├── format.ts
+│   │   ├── media.ts
+│   │   ├── scanner.ts
+│   │   ├── session-lock.ts
+│   │   ├── storage-endpoint.ts
+│   │   ├── supabase.ts
+│   │   ├── tus-upload.ts
+│   │   ├── upload-db.ts
+│   │   ├── upload-protocol.ts
+│   │   └── video.ts
+│   ├── main.tsx
+│   ├── pages/
+│   │   ├── audit-page.tsx
+│   │   ├── dashboard-page.tsx
+│   │   ├── login-page.tsx
+│   │   ├── not-found-page.tsx
+│   │   ├── recording-page.tsx
+│   │   ├── settings-page.tsx
+│   │   ├── setup-page.tsx
+│   │   ├── users-page.tsx
+│   │   └── videos-page.tsx
+│   ├── providers/
+│   │   ├── auth-provider.tsx
+│   │   ├── settings-provider.tsx
+│   │   ├── toast-provider.tsx
+│   │   └── upload-provider.tsx
+│   ├── styles.css
+│   ├── types/
+│   │   ├── barcode-detector.d.ts
+│   │   └── database.ts
+│   └── vite-env.d.ts
+├── supabase/
+│   ├── README.md
+│   └── setup.sql
+├── tests/
+│   ├── barcode.test.ts
+│   ├── filename.test.ts
+│   ├── session-lock.test.ts
+│   └── upload.test.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── vercel.json
+├── vite.config.ts
+└── vitest.config.ts

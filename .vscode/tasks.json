@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Proof Video: Vercel Dev",
+      "type": "shell",
+      "command": "npm run dev:vercel",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Proof Video: Verify",
+      "type": "shell",
+      "command": "npm run verify",
+      "problemMatcher": []
+    }
+  ]
+}

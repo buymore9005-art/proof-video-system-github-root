@@ -1,0 +1,53 @@
+{
+  "name": "proof-video-system",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Proof Video System menggunakan GitHub, Supabase, dan Vercel.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --port 3000",
+    "dev:vercel": "vercel dev --listen 3000",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "secret": "node scripts/generate-secret.mjs",
+    "verify:static": "node scripts/verify-project.mjs",
+    "verify": "npm run verify:static && npm run test && npm run typecheck && npm run lint && npm run build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.110.7",
+    "@zxing/browser": "0.2.1",
+    "lucide-react": "0.276.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.1",
+    "tus-js-client": "4.3.1",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "9.17.0",
+    "@types/node": "^26.1.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@vercel/node": "5.8.26",
+    "@vitejs/plugin-react": "5.1.4",
+    "eslint": "9.17.0",
+    "eslint-plugin-react-hooks": "5.1.0",
+    "eslint-plugin-react-refresh": "0.4.16",
+    "prettier": "3.4.2",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.18.2",
+    "vercel": "56.4.1",
+    "vite": "7.3.1",
+    "vitest": "4.1.10"
+  }
+}
